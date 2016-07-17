@@ -1,0 +1,537 @@
+
+header{
+  margin: 0 auto; 
+  position: static;
+}
+body{
+  background-color: #f08080;
+}
+#blok {
+  position: relative;
+  float:left;
+  font-size:1.8em;
+  font-family:"Courier New", monospace;
+  background-color:#f08080;
+  
+  
+}
+#rodzic{
+  margin: 0 auto; 
+  text-align: center;
+}
+
+
+#blok > span {
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  background-color:#f08080;
+  border-left:1px solid transparent;
+  animation:pisz 20s steps(57, start), znak 1s step-end infinite;
+}
+@keyframes pisz
+{
+  0% { width:100%; }
+  100% { width:0; }
+}
+@keyframes znak{
+  0%{border-left-color:transparent;}
+  50%{border-left-color:black;}
+  100%{border-left-color:transparent;}
+}
+
+#pudelko {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+       #pudelko2 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+
+       #pudelko3 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      #pudelko4 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      #pudelko5 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko6 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko7 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko8 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko9 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko10 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko11 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      
+      #karta {
+        position:relative;
+        margin-left: 50px;
+        width:100%;
+        height:100%;
+        text-align:center;
+        transition:1s;
+        -webkit-transition:1s;
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+      }
+
+      #pudelko:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+        #pudelko2:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko3:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko4:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko5:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko6:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko7:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko8:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko9:hover > #karta {
+        transform:rotateY(180deg);
+      }
+      #pudelko10:hover > #karta {
+        transform:rotateY(180deg);
+      }
+      #pudelko11:hover > #karta {
+        transform:rotateY(180deg);
+      }
+     
+
+      #przod {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://webkod.pl/img/lioncard.png') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod2 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.malamama.pl/wp-content/uploads/2014/05/zyrafa.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod3 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://digart.img.digart.pl/data/img/vol6/53/96/miniaturki400/2538208.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod4 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://png.clipart.me/thumbs/ba4/elephant-10-39295.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod5 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.wallmachine.pl/media/ecommerce/products/product4040/484x99999_false_5056ce66e6722fotolia_12219754.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod6 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://vader.joemonster.org/upload/qnn/1297088cc7fc1c5279867_1377463098_52.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod7 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://psy-pies.com/pliki/image/artykuly/psy/duze/pies-pasterski-z-bukowiny2068.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod8 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://pl.cat-wallpaper.ambientcat.com/Tapety-768-1024/Maine-Coon-Srebrny-kociak-Jeden-z-najbardziej-popularnych-ras-kot%C3%B3w-wspania%C5%82e-44.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod9 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://basiccollection.hu/image.php?p=264312&s=32&size=orig') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod10 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://cdn3.jysk.com/getimage/web.large/18408') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod11 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://img.shmbk.pl/rimgspr/25118170_max_300_400_dla-domu-dekoracje-sztuczne-kwiaty-sztuczny-kwiat-w-doniczce-orchid-fuchsia.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod12 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.jtsinteriors.co.uk/ekmps/shops/cloverleysoft/images/aylesbury-triple-wardrobe-with-drawers-1482-p.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod13 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://cdn.shopify.com/s/files/1/0132/6342/products/MaldonadoKingBed-DarkGrey_grande.jpeg?v=1444933888') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod14 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.elitedoubleglazing.com.au/images/Windows/French%20Window/french-window-open-large.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod15 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('https://s-media-cache-ak0.pinimg.com/564x/b5/06/a3/b506a3cbe2725927452494de19aa9df6.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod16 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://a2.ocimage.us/pimg/pop_61944_1.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod17 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://cdn.shopify.com/s/files/1/0740/6535/products/Navy-Classic-Wax-Jacket-front-hood_6d5a26ad-1f06-4d2b-88cb-e6e1f58f0845_grande.jpg?v=1432135362') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod18 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('https://s-media-cache-ak0.pinimg.com/564x/f0/3c/34/f03c34a3b568b8b55f4fd17d4e645e7f.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod19 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('https://s-media-cache-ak0.pinimg.com/564x/c4/2c/66/c42c66314733ad388454ea81e615cb6e.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod20 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.maykool.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/k/skirts-white-pleated-stylish-skater-skirt-012642.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod21 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.lifestyle-bugatti.com/media/catalog/product/cache/2/small_image/400x600/9df78eab33525d08d6e5fb8d27136e95/C/S/CS1034-Q514-006_1_1.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod22 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://image9.oasap.com/o_img/2015/04/23/56236-400433-home/essential-floral-sleeveless-swing-dress.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod23 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://www.zeberka.pl/img_new/2015/10/06/hm79zl.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod24 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('http://images.urbanoutfitters.com/is/image/UrbanOutfitters/37656410_002_b?$medium$') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+
+
+      #tyl {
+        position:absolute;
+        width:100%;
+        height:100%;
+        line-height:240px;
+        color:#FFF;
+        font-size:1.6em;
+        background-color:#000;
+        box-shadow:0 0 4px 8px #FFF inset;
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+
+ #rodzic {
+        width:560px;
+        height:46px;
+        font-size:24px;
+        margin:0 auto;
+        text-align:center;
+      }
+
+      #rodzic > span {
+        display:block;
+        float:left;
+        width:40px;
+        line-height:40px;
+        margin:0 5px;
+        border:3px solid #3fb0ac;
+        background-color:#fae596;
+        border-radius:6px;
+        animation:animowany_tekst 5s linear infinite;
+        -webkit-animation:animowany_tekst 5s linear infinite;
+      }
+
+    #rodzic > span:nth-child(1) {
+        animation-delay:250ms;
+        -webkit-animation-delay:250ms;
+      }
+
+      #rodzic > span:nth-child(2) {
+        animation-delay:500ms;
+        -webkit-animation-delay:500ms;
+      }
+
+      #rodzic > span:nth-child(3) {
+        animation-delay:750ms;
+        -webkit-animation-delay:750ms;
+      }
+
+      #rodzic > span:nth-child(4) {
+        animation-delay:1000ms;
+        -webkit-animation-delay:1000ms;
+      }
+
+      #rodzic > span:nth-child(5) {
+        animation-delay:1250ms;
+        -webkit-animation-delay:1250ms;
+      }
+
+      #rodzic > span:nth-child(6) {
+        animation-delay:1500ms;
+        -webkit-animation-delay:1500ms;
+      }
+
+      #rodzic > span:nth-child(7) {
+        animation-delay:1750ms;
+        -webkit-animation-delay:1750ms;
+      }
+
+      #rodzic > span:nth-child(8) {
+        animation-delay:2000ms;
+        -webkit-animation-delay:2000ms;
+      }
+      #rodzic > span:nth-child(9) {
+        animation-delay:2250ms;
+        -webkit-animation-delay:2250ms;
+      }
+       #rodzic > span:nth-child(10) {
+        animation-delay:2500ms;
+        -webkit-animation-delay:2500ms;
+      }
+      /*------------------------ANIMACJA------------------------*/
+      @keyframes animowany_tekst
+      {
+        0% {transform:rotate(0);}
+        10% {transform:rotate(360deg);}
+        100% {transform:rotate(360deg);}
+      }
+
+      @-webkit-keyframes animowany_tekst
+      {
+        0% {-webkit-transform:rotate(0);}
+        10% {-webkit-transform:rotate(360deg);}
+        100% {-webkit-transform:rotate(360deg);}
+      }
+
+.drukowanie{
+margin-left: 150px;
+}
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
