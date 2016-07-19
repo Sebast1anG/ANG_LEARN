@@ -535,3 +535,10 @@ margin-left: 150px;
   font-weight: bold;
   text-align: center;
 }
+#mu{
+  border-radius: 40px;
+  background-color:#f2b632;
+  width:50%;height:10px;
+  padding:20px;
+  margin: 0 auto;
+}
