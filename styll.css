@@ -1,0 +1,543 @@
+
+header{
+  margin: 0 auto; 
+  position: static;
+}
+body{
+  background-color: #f08080;
+}
+#blok {
+  position: relative;
+  float:left;
+  font-size:1.8em;
+  font-family:"Courier New", monospace;
+  background-color:#f08080;
+  
+  
+}
+#rodzic{
+  margin: 0 auto; 
+  text-align: center;
+}
+
+
+#blok > span {
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  background-color:#f08080;
+  border-left:1px solid transparent;
+  animation:pisz 20s steps(57, start), znak 1s step-end infinite;
+}
+@keyframes pisz
+{
+  0% { width:100%; }
+  100% { width:0; }
+}
+@keyframes znak{
+  0%{border-left-color:transparent;}
+  50%{border-left-color:black;}
+  100%{border-left-color:transparent;}
+}
+
+#pudelko {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+       #pudelko2 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+
+       #pudelko3 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      #pudelko4 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      #pudelko5 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko6 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko7 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko8 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko9 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko10 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+        #pudelko11 {
+        width:180px;
+        height:240px;
+        perspective:300px;
+        -webkit-perspective:300px;
+      }
+      
+      #karta {
+        position:relative;
+        margin-left: 50px;
+        width:100%;
+        height:100%;
+        text-align:center;
+        transition:1s;
+        -webkit-transition:1s;
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+      }
+
+      #pudelko:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+        #pudelko2:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko3:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko4:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko5:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko6:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko7:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko8:hover > #karta {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+      }
+      #pudelko9:hover > #karta {
+        transform:rotateY(180deg);
+      }
+      #pudelko10:hover > #karta {
+        transform:rotateY(180deg);
+      }
+      #pudelko11:hover > #karta {
+        transform:rotateY(180deg);
+      }
+     
+
+      #przod {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/lion.png') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod2 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/zyrafa.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod3 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/zebra.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod4 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/elephant.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+      #przod5 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/horse.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod6 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/pig.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod7 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/pies.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+       #przod8 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/kot.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod9 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/table.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod10 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/chair.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod11 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/flower.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod12 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/wardrobe.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod13 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/bedd.jpeg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod14 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/window.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod15 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/door.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod16 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/umbrella.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod17 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/jacket.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod18 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/shoes.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod19 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/jeans.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod20 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/skirt.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod21 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/t-shirt.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod22 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/dress.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod23 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/shirt.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+        #przod24 {
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:url('Image/hat.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+
+
+      #tyl {
+        position:absolute;
+        width:100%;
+        height:100%;
+        line-height:240px;
+        color:#FFF;
+        font-size:1.6em;
+        background-color:#000;
+        box-shadow:0 0 4px 8px #FFF inset;
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+
+ #rodzic {
+        width:620px;
+        height:46px;
+        font-size:24px;
+        margin:0 auto;
+        text-align:center;
+      }
+
+      #rodzic > span {
+        display:block;
+        float:left;
+        width:40px;
+        line-height:40px;
+        margin:0 5px;
+        border:3px solid #3fb0ac;
+        background-color:#fae596;
+        border-radius:6px;
+        animation:animowany_tekst 5s linear infinite;
+        -webkit-animation:animowany_tekst 5s linear infinite;
+      }
+
+    #rodzic > span:nth-child(1) {
+        animation-delay:250ms;
+        -webkit-animation-delay:250ms;
+      }
+
+      #rodzic > span:nth-child(2) {
+        animation-delay:500ms;
+        -webkit-animation-delay:500ms;
+      }
+
+      #rodzic > span:nth-child(3) {
+        animation-delay:750ms;
+        -webkit-animation-delay:750ms;
+      }
+
+      #rodzic > span:nth-child(4) {
+        animation-delay:1000ms;
+        -webkit-animation-delay:1000ms;
+      }
+
+      #rodzic > span:nth-child(5) {
+        animation-delay:1250ms;
+        -webkit-animation-delay:1250ms;
+      }
+
+      #rodzic > span:nth-child(6) {
+        animation-delay:1500ms;
+        -webkit-animation-delay:1500ms;
+      }
+
+      #rodzic > span:nth-child(7) {
+        animation-delay:1750ms;
+        -webkit-animation-delay:1750ms;
+      }
+
+      #rodzic > span:nth-child(8) {
+        animation-delay:2000ms;
+        -webkit-animation-delay:2000ms;
+      }
+      #rodzic > span:nth-child(9) {
+        animation-delay:2250ms;
+        -webkit-animation-delay:2250ms;
+      }
+       #rodzic > span:nth-child(10) {
+        animation-delay:2500ms;
+        -webkit-animation-delay:2500ms;
+      }
+      
+      @keyframes animowany_tekst
+      {
+        0% {transform:rotate(0);}
+        10% {transform:rotate(360deg);}
+        100% {transform:rotate(360deg);}
+      }
+
+      @-webkit-keyframes animowany_tekst
+      {
+        0% {-webkit-transform:rotate(0);}
+        10% {-webkit-transform:rotate(360deg);}
+        100% {-webkit-transform:rotate(360deg);}
+      }
+
+.drukowanie{
+  margin-left: 150px;
+}
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 300px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mu{
+  border-radius: 40px;
+  background-color:#f2b632;
+  width:50%;height:10px;
+  padding:20px;
+  margin: 0 auto;
+}
